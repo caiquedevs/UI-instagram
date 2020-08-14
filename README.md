@@ -17,7 +17,7 @@
 
 ## 🚀 Tecnologias
 
-Esse projeto esta sendo desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
   - Express
