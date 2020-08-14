@@ -5,7 +5,6 @@
 <p align="center">
   <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>
 </p>
 
@@ -24,8 +23,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   - Puppeteer
   - Métodos http: get
 - [React](https://reactjs.org)
-  - Slint
-  - Babel
+  - Eslint
+  - Babel-eslint
   - Prettier
   - React-icons
   - Axios 
