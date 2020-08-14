@@ -1,69 +1,94 @@
-Command Snippets for React -> rfc
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="UiInstagram" title="UiInstagram" src="https://github.com/caiquedevs/UI-instagram/blob/master/github/logo.svg" width="220px" />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+<p align="center">
+  <img alt="UiInstagram" src="https://github.com/caiquedevs/UI-instagram/blob/master/github/template.svg" width="100%">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tecnologias
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Esse projeto esta sendo desenvolvido com as seguintes tecnologias:
 
-### `yarn test`
+- [Node.js](https://nodejs.org/en/)
+  - Express
+  - Puppeteer
+  - Métodos http: get
+- [React](https://reactjs.org)
+  - Slint
+  - Babel
+  - Prettier
+  - React-icons
+  - Axios 
+  - Styled-Components
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Projeto
 
-### `yarn build`
+A Clone ui instagram é um clone da interface do instagram onde o usuário pode inserir seu usuário e o sistema lista suas ultimas fotos postadas na rede social.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :information_source: Como usar
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Para clonar e executar este aplicativo, você precisará [Git] (https://git-scm.com), [Node.js] [nodejs] + [Yarn] [yarn] instalado no seu computador.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Na sua linha de comando:
 
-### `yarn eject`
+### Install API 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+# Clonar este repositório
+$ git clone https://github.com/caiquedevs/UI-instagram.git
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Entre no repositório
+$ cd Clone-instagram/backend
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Instalar dependências
+$ yarn install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Iniciar servidor
+$ yarn dev
 
-## Learn More
+# Em execução na porta 3333
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Instalar Front-end
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clonar este repositório
+$ git clone https://github.com/caiquedevs/UI-instagram.git
 
-### Code Splitting
+# Entre no repositório
+$ cd Clone-instagram/frontend
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Instalar dependências
+$ yarn install
 
-### Analyzing the Bundle Size
+# Iniciar
+$ yarn start
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# executando na porta 3000
+```
 
-### Making a Progressive Web App
+## 🤔 Como contribuir
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-### Advanced Configuration
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+Feito com ♥ por Caiquedevs
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
